@@ -199,8 +199,9 @@ h1,h2,h3,h4,h5,h6,p{
 /* ======= counter css style start ======= */
 #counter{
     background-color: #201353;
-    height: 1000px;
+
     padding-top: 522px;
+    padding-bottom: 32px;
 }
 .counterWrapper{
     padding: 48px;
@@ -251,17 +252,415 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ======= counter css style end ======= */
 
-/* ======= counter css style start ======= */
-/* ======= navbar css style end ======= */
+/* ======= feature css style start ======= */
+#feature{
+    padding: 100px 0;
+    background-color: #201353;
+    position: relative;
+}
+.featureHeading{
+    display: flex;
+    justify-content: space-between;
+}
+.featureHeading h2{
+    color: #fff;
+    max-width: 514px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+}
+.featureHeading p{
+    margin-top: 18px;
+    max-width: 555px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.64);
+}
+.featureMain{
+    margin-top: 48px;
+}
+.featureWrapper{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.featureImg{
+    position: absolute;
+    bottom: -4px;
+    right: 12%;
+}
+.featureWrapper .transition{
+    max-width: 368px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 24px;
 
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
+}
+.transitionHeading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.transitionHeading h4{
+    color: #192252;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.transition p{
+    margin-top: 20px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.transition .progress{
+    margin-top: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #EFF3FA;
+    position: relative;
+}
+.transition .progress::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    border-radius: 2px;
+    background-color: #6245D5;
+    overflow: hidden;
+}
+.featureWrapper .history{
+    max-width: 368px;
+    border-radius: 16px;
+    border: 1.5px solid #2C1A74;
+    padding: 24px;
+}
+.historyHeading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.historyHeading h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.skilliton1{
+    margin-top: 20px;
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+.skilliton2{
+    margin-top: 10px;
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.skilliton3{
+    margin-top: 26px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+/* ======= feature css style end ======= */
 
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
+/* ======= video css style start ======= */
+#video{
+    padding: 132px 0 140px 0;
+}
+.videoWrapper{
+    display: flex;
+    gap: 126px;
+    align-items: center;
+}
+.videoBox{
+    width: 600px;
+    height: 600px;
+    border-radius: 24px;
+    background-color: #cdc3c3;
+    overflow: hidden;
+    position: relative;
+}
+.videoBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.playBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.videoDetails{
+    width: 514px;
+}
+.videoDetails .videoTitle{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: #192252;
+}
+.videoDetails p{
+    color: #848FAC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 421px;
+    margin-top: 24px;
+}
+.videoDetailsList{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.videoDetailsList li{
+    color: #192252;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.videoDetailsList li i{
+    color: #219653;
+    margin-right: 29px;
+}
+/* ======= video css style end ======= */
 
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
+/* ======= brand css style start ======= */
+#brand{
+    padding-bottom: 62px;
+}
+.brandHeading{
+    color: #848FAC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+.brandWrapper{
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+.brandItem{
+    width: 208px;
+    text-align: center;
+}
+.brandItem img{
+    width: 60%;
+}
+/* ======= brand css style end ======= */
+
+/* ======= pricing css style start ======= */
+#pricing{
+    padding: 100px 0;
+}
+.pricingHeading{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.pricingHeading h3{
+    color: #192252;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+}
+.pricingHeading p{
+    color: #848FAC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+}
+.pricingWrapper{
+    margin-top: 64px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.packageMain{
+    width: 515px;
+    display: flex;flex-direction: column;
+    row-gap: 24px;
+
+}
+.packageItem{
+    padding: 24px;
+    border-radius: 16px;
+    border: 1.5px solid #e0e4ec;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+.packageItem .packageInput{
+    height: 24px;
+    width: 24px;
+}
+.packageItem .packageDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.packageDetails .detailsText .packageName{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.packageDetails .detailsText .packageName h4{
+    color: #192252;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+.packageDetails .detailsText .packageName span{
+    color: #219653;
+    padding: 4px 12px;
+    border-radius: 11px;
+    background-color: rgba(33, 150, 84, 0.08);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    transition: all l 0.3s;
+}
+.packageDetails .detailsText p{
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8px;
+    max-width: 236px;
+    transition: all linear 0.3s;
+}
+.priceAmount{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: end;
+}
+.packageDetails .priceAmount .priceNumber{
+    color: #192252;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+.priceAmount .packageDuration{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #848FAC;
+    transition: all linear 0.3s;
+}
+.packageItem:hover{
+    background-color: #6245D5;
+    border: 1.5px solid #6245D5;
+}
+.packageItem:hover .packageDetails .detailsText .packageName h4 , .packageItem:hover .packageDetails .priceAmount .priceNumber{
+    color: #fff;  
+}
+.packageItem:hover .packageDetails .detailsText .packageName span{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.80);
+}
+.packageItem:hover .packageDetails .detailsText p , .packageItem:hover .priceAmount .packageDuration{
+    color: rgba(255, 255, 255, 0.64);
+}
+.packageItem .packageInput input [type="radio"]::after{
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+    content: "";
+    display: inline-block;
+    border: 2px solid #848FAC;
+    visibility: visible;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.packageItem .packageInput input [type="radio"]:checked::after{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: relative;
+    content: "";
+    background-color: #6245D5;
+    display: inline-block;
+    visibility: visible;
+    border: 6px solid #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.planMain{
+    width: 525px;
+    padding: 55px 48px 70px 52px ;
+    border-radius: 16px;
+    background-color: #F7F7F7;
+}
+.planBtn{
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 4px;
+    display: inline-block;
+}
+.planBtn button{
+    border: none;
+    background-color: transparent;
+    padding: 12px 16px;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.planBtn .active{
+    background-color: #FC9770;
+    color: #fff;
+    border-radius: 22px;
+}
+.planMain ul{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 52px;
+}
+.planMain ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.planMain ul li i{
+    color: #6245D5;
+}
+.planMain ul li span{
+    color: #192252;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+/* ======= pricing css style end ======= */
 
 /* ======= navbar css style start ======= */
 /* ======= navbar css style end ======= */

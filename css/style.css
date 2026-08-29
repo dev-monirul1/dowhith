@@ -196,14 +196,62 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ======= banner css style end ======= */
 
-/* ======= navbar css style start ======= */
-#xyz{
+/* ======= counter css style start ======= */
+#counter{
     background-color: #201353;
     height: 1000px;
+    padding-top: 522px;
 }
-/* ======= navbar css style end ======= */
+.counterWrapper{
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+}
+.counterItem{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+.counterItem::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    height: 32px;
+    width: 2px;
+    transform: translate(64px,-50%);
+    background-color: rgba(255, 255, 255, 0.20);
+}
+.counterItem:last-child::after{
+    background-color: transparent;
+}
+.counterItem .countnumber{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.counterItem .countTitle{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+.counterItem:first-child{
+    justify-content: start;
+}
+.counterItem:last-child{
+    justify-content: end;
+}
 
-/* ======= navbar css style start ======= */
+/* ======= counter css style end ======= */
+
+/* ======= counter css style start ======= */
 /* ======= navbar css style end ======= */
 
 /* ======= navbar css style start ======= */

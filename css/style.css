@@ -82,9 +82,7 @@ h1,h2,h3,h4,h5,h6,p{
 /* ======= navbar css style end ======= */
 
 /* ======= banner css style start ======= */
-#banner{
-    
-}
+
 .shape1{
     position: relative;
 }
@@ -662,11 +660,255 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ======= pricing css style end ======= */
 
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
+/* ======= review css style start ======= */
+#review{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.reviewWrapper{
+    display: flex;
+    column-gap: 150px;
+}
+.reviewMain{
+    width: 490px;
+}
+.reviewMain .reviewHeading h3{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+.reviewMain .reviewHeading p{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+    width: 434px;
+}
+.reviewMain .reviewText{
+    margin-top: 64px;
+}
+.reviewMain .reviewText p{
+    margin-top: 48px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #fff;
+}
+.reviewMain .reviewText .reviewer{
+    margin-top: 46px;
+    margin-bottom: 48px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+    display: inline-block;
+}
+.reviewImgMain{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.reviewImgWrapper{
+    display: flex;
+    gap: 24px;
+}
+.reviewImgItem{
+    width: 64px;
+    height: 64px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.reviewImgItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reviewImgItem:nth-child(2){
+    opacity: 0.75;
+}
+.reviewImgItem:nth-child(3){
+    opacity: 0.5;
+}
+.reviewImgItem:nth-child(4){
+    opacity: 0.25;
+}
+.reviewArrow{
+    width: 64px;
+    height: 64px;
+    border: 1.5px solid rgba(255, 255, 255, 0.64);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactForm{
+    width: 600px;
+    padding: 64px 80px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+}
+.ContactForm .formheading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.ContactForm .formheading h5{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.ContactForm form{
+    margin-top: 48px;
+}
+.ContactForm form .formGroup label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+    margin-bottom: 16px;
+}
+.ContactForm form .formGroup input{
+    width: 100%;
+    padding: 14px 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.ContactForm form .formGroup.message{
+    margin-top: 24px;
+}
+.ContactForm form .formGroup.message textarea{
+    height: 80px;
+    width: 100%;
+    padding: 14px 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #848FAC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.ContactForm form .formGroup.btn{
+    margin-top: 40px;
+    
+}
+.ContactForm form .formGroup.btn button{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #FC9770;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.ContactForm form .formGroup.trial{
+    margin-top: 24px;
+    text-align: right;
+}
+.ContactForm form .formGroup.trial a{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+}
+.ContactForm form .formGroup.trial a span{
+    font-weight: 600;
+    color: #fff;
+    padding-left: 8px;
+}
+/* ======= review css style end ======= */
 
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
-
-/* ======= navbar css style start ======= */
-/* ======= navbar css style end ======= */
+/* ======= footer css style start ======= */
+#footer{
+    padding-top: 100px;
+    background-color: #201353;
+    padding-bottom: 32px;
+}
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footerLogo{
+    width: 332px;
+}
+.footerLogo p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 24px;
+}
+.footerListMain{
+    display: flex;
+    gap: 95px;
+    justify-content: end;
+}
+.footerListHeading{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    color: #fff;
+}
+.footerUl{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.footerUl li a{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.copyRight{
+    border-top: 1px solid #515151;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;   
+}
+.copyRight p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.5;
+}
+.socialLink{
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    align-items: center;
+}
+.socialLinkItem{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #CAC0F3;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.socialLinkItem i{
+    color: #fff;
+}
+/* ======= footer css style end ======= */

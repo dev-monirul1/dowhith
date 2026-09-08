@@ -583,26 +583,6 @@ h1,h2,h3,h4,h5,h6,p{
     color: rgba(255, 255, 255, 0.64);
 }
 
-/* .packageItem .packageInput input[type="radio"] {
-    -webkit-appearance: none;
-    appearance: none;
-    margin: 0;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    border: 2px solid #848FAC;
-    background-color: #fff;
-    outline: none;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-}
-
-.packageItem .packageInput input[type="radio"]:checked {
-    background-color: #6245D5;
-    border: 6px solid #fff;
-    box-shadow: 0 0 0 2px #6245D5; 
-} */
 
 .packageInput input[type='radio']::after{
     margin-top: 10px;

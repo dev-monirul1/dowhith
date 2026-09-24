@@ -388,7 +388,13 @@ img {
         flex-direction: column;
         align-items: center;
     }
-
+    .pricingWrapper{
+    margin-top: 64px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    }
     .packageMain,
     .planMain {
         width: 100%;
@@ -434,36 +440,27 @@ img {
 
 /* ---------- Small Breakpoint Start ---------- */
 @media (max-width: 767px) {
-    .container {
-        width: calc(100% - 32px);
-    }
+    
 
     /* ==== Navbar Section ==== */
     #navbar {
         padding: 15px 0;
     }
 
-    .navWrapper {
-        flex-wrap: wrap;
-    }
-
     .logo img {
-        max-width: 130px;
+        max-width: 95px;
     }
 
     .menu {
-        order: 3;
         width: 100%;
         justify-content: center;
         gap: 18px;
-        margin-top: 15px;
-        overflow-x: auto;
         padding-bottom: 3px;
+        width: 50%;
     }
 
     .menu li a {
         font-size: 14px;
-        white-space: nowrap;
     }
 
     .navBtn a {
@@ -690,7 +687,8 @@ img {
         line-height: 150%;
     }
 
-    .priceWrapper {
+    .pricingWrapper {
+        flex-direction: column;
         margin-top: 40px;
         gap: 30px;
     }
@@ -872,9 +870,7 @@ img {
 
 /* ---------- Extra Small Breakpoint Start ---------- */
 @media (max-width: 480px) {
-    .container {
-        width: calc(100% - 24px);
-    }
+    
 
     /* ==== Navbar Section ==== */
     .logo img {
@@ -887,7 +883,8 @@ img {
     }
 
     .menu {
-        gap: 14px;
+        display: none;
+        gap: 5px;
     }
 
     .menu li a {
@@ -976,10 +973,16 @@ img {
     }
 
     /* ==== Pricing Section ==== */
+    #pricing{
+    padding: 40px 0 70px;
+    }
     .packageItem {
         padding: 15px;
     }
-
+    .pricingWrapper{
+    flex-direction: column;
+    gap: 20px;
+    }
     .packageItem .packageInput {
         width: 20px;
         flex-shrink: 0;
